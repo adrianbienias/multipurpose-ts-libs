@@ -1,0 +1,21 @@
+{
+  "name": "multipurpose-ts-libs",
+  "description": "Multipurpose TypeScript Libraries",
+  "author": "Adrian Bienias <adrian@bienias.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adrianbienias/multipurpose-ts-libs"
+  },
+  "bugs": {
+    "url": "https://github.com/adrianbienias/multipurpose-ts-libs/issues"
+  },
+  "scripts": {
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.31.0",
+    "vitest": "^0.31.0"
+  }
+}
